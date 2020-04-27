@@ -1,0 +1,293 @@
+    1  sudo apt-get update
+    2  sudo get-get update
+    3  sudo apt-get update
+    4  sudo apt-get upgrade
+    5  sudo apt install gcc make perl
+    6  sudo /media/$USER/VBox*/VBoxLinux*.run
+    7  reboot
+    8  code
+    9  sudo apt update
+   10  sudo apt upgrade
+   11  sudo apt install curl git
+   12  git config --global user.name "Sriram058"
+   13  git config --global user.email "sriramfromrsvp@gmail.com"
+   14  git config --global color.ui auto
+   15  git config --get user.name
+   16  git config -- get user.email
+   17  git config --get user.email
+   18  ls ~/.ssh/id_rsa.pub
+   19  ssh-keygen -C sriramfromrsvp@gmail.com
+   20  ls ~/.ssh/id_rsa.pub
+   21  cat ~/.ssh/id_rsa.pub
+   22  ssh -T git@github.com
+   23  whoami
+   24  ls
+   25  touch test.txt
+   26  ls
+   27  touch index.html
+   28  ls
+   29  touch index.html script.js style.css
+   30  ls
+   31  cd ~/Desktop/
+   32  cdexit
+   33  ls
+   34  cd..
+   35  ls
+   36  touch test
+   37  ls
+   38  cd ~/test
+   39  help
+   40  ls
+   41  rm index.html syle.css test test.txt script.js
+   42  rm index.html style.css test test.txt script.js
+   43  ls
+   44  mkdir test
+   45  ls
+   46  cd ~/test
+   47  touch test.txt
+   48  cd ~
+   49  ls
+   50  cd ~/test/
+   51  ls
+   52  cd ~
+   53  rmdir test
+   54  cd ~/test
+   55  rm test.txt
+   56  cd ~
+   57  rmdir test
+   58  ls
+   59  pwd
+   60  mkdir test
+   61  cd ~/test/
+   62  echo test.txt
+   63  ls
+   64  touch test.text
+   65  ls
+   66  cd ~
+   67  rmdir -r test
+   68  rm -r test
+   69  ls
+   70  ls -a
+   71  ls -l
+   72  ls -a -l
+   73  ls -a -p
+   74  ls -a -l -p
+   75  echo hello
+   76  echo 'hello'
+   77  echo "hello"
+   78  echo hello chibu
+   79  echo "hello, chibu"
+   80  echo 'hello, chibu'
+   81  echo 'hello, chibu
+   82  '
+   83  echo 'hello, chibu
+   84  yes
+   85  tail
+   86  cat
+   87  echo "hello
+   88  grep foobar
+   89  yes
+   90  echo "hello, world"
+   91  echo 'hello, world'
+   92  echo hello, world
+   93  echo 'hello
+   94  man echo
+   95  man man
+   96  date
+   97  TZ-IST date
+   98  TZ=IST date
+   99  TZ=PST date
+  100  date -d now
+  101  date -d yesterday
+  102  df
+  103  df -h
+  104  free
+  105  ps
+  106  uptime
+  107  w
+  108  exit
+  109  echo $PATH
+  110  jobs
+  111  ps
+  112  top
+  113  ip
+  114  man echo
+  115  echo -n "Hello, world"
+  116  echo echo
+  117  echo echo test
+  118  echo "Hello world"
+  119  echo fee
+  120  echo fie
+  121  echo foe
+  122  echo fum
+  123  echo 'Use man "echo"'
+  124  man sleep
+  125  sleep 5 s
+  126  sleep 5s
+  127  sleep 5000s
+  128  echo "From fairest creatures we desire increase," > sonnet_1.txt
+  129  cat sonnet_1.txt
+  130  echo "That thereby beauty's Rose might never die," >> sonnet_1.txt
+  131  cat sonnet_1.txt
+  132  echo "From fairest creatures we desire increase," > sonnet_1_lower_case.txt
+  133  echo "That thereby beauty's rose might never die," >> sonnet_1_lower_case.txt
+  134  cat sonnet_1_lower_case.txt
+  135  diff sonnet_1.txt sonnet_1_lower_case.txt
+  136  ls
+  137  ls Music
+  138  ls test
+  139  ls *.txt
+  140  ls -l *.txt
+  141  ls -rtl
+  142  ls -rtl *.txt
+  143  ls -l
+  144  ls -rtl
+  145  ls -r -t -l
+  146  ls -t
+  147  ls -t -l
+  148  ls -a
+  149  ls -a -r -t -l
+  150  touch .gitignore
+  151  ls -a -r -t -l
+  152  rm .gitignore
+  153  echo "*.txt" > .gitignore
+  154  ls -a -r -t -l
+  155  ls *s
+  156  ls s*
+  157  ls -a *onnet*
+  158  ls -r -t -l *onnet*
+  159  ls -artl
+  160  ls -atl
+  161  echo $SHELL
+  162  chsh -s /bin/zsh
+  163  echo $SHELL
+  164  ls
+  165  echo "test" > test
+  166  ls
+  167  mv test testOne
+  168  ls
+  169  cp testOne testTwo
+  170  ls
+  171  ls -l
+  172  diff testOne testTwo
+  173  rm testTwo
+  174  ls testTwo
+  175  cp testOne testTwo
+  176  rm testTwo 
+  177  rm testOne 
+  178  ls sonnet_1
+  179  touch testOne
+  180  touch testTwo
+  181  rm test*
+  182  ls
+  183  touch testOne
+  184  touch testTwo
+  185  ls
+  186  rm test*
+  187  touch testOne
+  188  touch testTwo
+  189  rm -i test*
+  190  list
+  191  echo "hello world" > foo.txt
+  192  cp foo.txt bar.txt
+  193  diff foo.txt bar.txt
+  194  cat foo.txt > baz.txt
+  195  diff foo.txt baz.txt
+  196  cat foo.txt bar.txt > quux.txt
+  197  cat quux.txt
+  198  echo "FRom faireſt creatures we deſire increaſe, That thereby beauties Roſe might neuer die, But as the riper ſhould by time deceaſe, His tender heire might beare his memory: But thou contracted to thine owne bright eyes, Feed’ſt thy lights flame with ſelfe ſubſtantiall fewell, Making a famine where aboundance lies, Thy ſelfe thy foe,to thy ſweet ſelfe too cruell: Thou that art now the worlds freſh ornament, And only herauld to the gaudy ſpring, Within thine owne bud burieſt thy content, And tender chorle makſt waſt in niggarding:    Pitty the world,or elſe this glutton be,    To eate the worlds due,by the graue and thee." > sonnet_1_complete.txt
+  199  cat sonnet_1_complete.txt
+  200  touch foo
+  201  mv foo bar
+  202  cp bar baz
+  203  rm -i ba*
+  204  sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
+  205  sudo chmod a+rx /usr/local/bin/youtube-dl
+  206  youtube-dl --list-extractors
+  207  youtube-dl -U
+  208  youtube-dl https://www.youtube.com/watch?v=HVsySz-h9r4
+  209  youtube-dl https://www.youtube.com/watch?v=HVsySz-h9r4 Git_CLI_Tutorial.mp4
+  210  youtube-dl --id  https://www.youtube.com/watch?v=HVsySz-h9r4
+  211  cd ~/.cache/youtube-dl
+  212  ls
+  213  pwd
+  214  mv HVsySz-h9r4.mp4 GIT_CLI_Tutorial.mp4
+  215  rm 'Git Tutorial for Beginners - Command-Line Fundamentals-HVsySz-h9r4.mp4' 
+  216  ls
+  217  git --version
+  218  git config --list
+  219  git help config
+  220  git config --help
+  221  git add --help
+  222  mkdir LocalRepo
+  223  ls
+  224  cd LocalRepo
+  225  ls
+  226  git init
+  227  ls
+  228  ls -la
+  229  echo Test > Test.java
+  230  ls -la
+  231  git status
+  232  touch .gitignore
+  233  code
+  234  git status
+  235  git add .gitignore
+  236  git status
+  237  git add -A
+  238  git status
+  239  git reset Test.java
+  240  git status
+  241  git reset
+  242  git status
+  243  git add -A
+  244  git status
+  245  git commit -m "Initial Commit"
+  246  git status
+  247  git log
+  248  cd.. 
+  249  cd
+  250  mkdir ClonedRepo
+  251  cd ClonedRepo
+  252  ls -la
+  253  cd
+  254  cd ClonedRepo
+  255  git clone https://github.com/Sriram058/sriram058.github.io.git .
+  256  ls -la
+  257  git remote -v
+  258  git branch -a
+  259  git diff
+  260  git status
+  261  git add -A
+  262  git status
+  263  git commit -m "Updated README.md"
+  264  git pull origin master
+  265  git push origin master
+  266  ssh -T git@github.com
+  267  git push origin master
+  268  git branch
+  269  git branch testBranch
+  270  git branch
+  271  git checkout testBranch
+  272  git branch
+  273  git status
+  274  git add -A
+  275  git status
+  276  git commit -m "Updated README.md"
+  277  git push -u origin testBranch
+  278  git branch
+  279  git branch -a
+  280  git checkout master
+  281  git branch
+  282  git pull origin master
+  283  git branch --merged
+  284  git merge testBranch
+  285  git branch --merged
+  286  git push origin master
+  287  git branch --merged
+  288  git branch -d testBranch
+  289  git branch -a
+  290  git push origin --delete testBranch
+  291  git branch -a
+  292  history
+  293  history > Commands.txt
