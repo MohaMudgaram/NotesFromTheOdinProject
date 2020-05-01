@@ -7,3 +7,8 @@
 6. [Role of HTML](http://webapps-for-beginners.rubymonstas.org/html.html)
 7. [Getting started with the Web](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web)
 8. [Color Picker Tool](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Color_picker_tool)
+9. [HTML elements Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
+10. [CSS Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference#Keyword_index)
+11. [JavaScript Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
+12. [Color Wheel - color theory and calculator](https://www.canva.com/colors/color-wheel/)
+13. [Color Wheel - Color Calculator | Sessions College](https://www.sessions.edu/color-calculator/)
