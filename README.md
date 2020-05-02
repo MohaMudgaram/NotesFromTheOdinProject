@@ -12,3 +12,5 @@
 11. [JavaScript Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
 12. [Color Wheel - color theory and calculator](https://www.canva.com/colors/color-wheel/)
 13. [Color Wheel - Color Calculator | Sessions College](https://www.sessions.edu/color-calculator/)
+14. [Contrast Checker](https://webaim.org/resources/contrastchecker/)
+15. [Color Picker Tool](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Color_picker_tool)
